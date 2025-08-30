@@ -79,8 +79,8 @@ export default class GameState {
 
             this.gameController.gamePlay.deselectAllCells();
             this.gameController.gamePlay.redrawPositions([
-                ...state.userPositionedCharacters,
-                ...state.enemyPositionedCharacters,
+                ...this.gameController.userPositionedCharacters,
+                ...this.gameController.enemyPositionedCharacters,
             ]);
         } catch (e) {
             throw new Error('Got wrong state data');

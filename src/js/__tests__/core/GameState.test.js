@@ -14,6 +14,7 @@ describe('GameState', () => {
                 score: null,
                 deselectAllCells: jest.fn(),
                 redrawPositions: jest.fn(),
+                drawUi: jest.fn(),
             },
             userPositionedCharacters: [],
             enemyPositionedCharacters: [],
@@ -130,8 +131,8 @@ describe('GameState', () => {
             .toHaveBeenCalledTimes(1);
         expect(mockGameController.gamePlay.redrawPositions)
             .toHaveBeenCalledWith([
-                ...state.userPositionedCharacters,
-                ...state.enemyPositionedCharacters,
+                ...mockGameController.userPositionedCharacters,
+                ...mockGameController.enemyPositionedCharacters,
             ]);
     });
 

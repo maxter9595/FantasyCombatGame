@@ -23,6 +23,7 @@ describe('GameController', () => {
         stateServiceMock = {
             load: jest.fn(),
             save: jest.fn(),
+            loadRecord: jest.fn(() => 0),
         };
         mockUserCharacter = class extends Character {};
         mockEnemyCharacter = class extends Character {};
