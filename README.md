@@ -43,45 +43,45 @@
   - Перемещение: 4 клетки
   - Атака: 1 клетка
 
-<table>
-  <tr>
-    <td><img src="./src/img/characters/swordsman.png" width="100%"></td>
-    <td><img src="./src/img/characters/undead.png" width="100%"></td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td><img src="./src/img/characters/swordsman.png" width="100%"></td>
+      <td><img src="./src/img/characters/undead.png" width="100%"></td>
+    </tr>
+  </table>
 
 - Дальний бой (Bowman, Zombie):
   - Перемещение: 2 клетки
   - Атака: 2 клетки
 
-<table>
-  <tr>
-    <td><img src="./src/img/characters/bowman.png" width="100%"></td>
-    <td><img src="./src/img/characters/zombie.png" width="100%"></td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td><img src="./src/img/characters/bowman.png" width="100%"></td>
+      <td><img src="./src/img/characters/zombie.png" width="100%"></td>
+    </tr>
+  </table>
 
 - Маги (Magician, Daemon):
   - Перемещение: 1 клетка
   - Атака: 4 клетки
 
-<table>
-  <tr>
-    <td><img src="./src/img/characters/magician.png" width="100%"></td>
-    <td><img src="./src/img/characters/daemon.png" width="100%"></td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td><img src="./src/img/characters/magician.png" width="100%"></td>
+      <td><img src="./src/img/characters/daemon.png" width="100%"></td>
+    </tr>
+  </table>
 
 - Vampire (вампир): 
   - Перемещение: 2 клетки
   - Атака: 2 клетки
 
-<table>
-  <tr>
-    <td><img src="./src/img/characters/vampire.png" width="100%"></td>
-    <td><img src="./src/img/characters/vampire.png" width="100%"></td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td><img src="./src/img/characters/vampire.png" width="100%"></td>
+      <td><img src="./src/img/characters/vampire.png" width="100%"></td>
+    </tr>
+  </table>
 
 - Стратегические советы:
   - Используйте дальнобойных персонажей в тылу
