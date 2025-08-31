@@ -358,7 +358,7 @@ export default class GamePlay {
     showCellTooltip(positionedCharacter) {
         const char = positionedCharacter.character;
         this.cells[positionedCharacter.position]
-            .title = `${char.type}\n${char.level}⚔${char.attack}${char.defence}❤${char.health}`;
+            .title = `${char.type}\n⭐${char.level} ⚔${char.attack} 🛡${char.defence} ❤${char.health}`;
     }
 
     /**

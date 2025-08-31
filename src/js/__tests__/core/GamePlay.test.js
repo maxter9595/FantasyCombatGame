@@ -297,7 +297,7 @@ describe('GamePlay Class', () => {
         gamePlay.drawUi('theme');
         gamePlay.showCellTooltip(positionedCharacter);
         const firstCell = container.querySelector('.cell');
-        expect(firstCell.title).toBe('Knight\n5⚔5030❤70');
+        expect(firstCell.title).toBe('Knight\n⭐5 ⚔50 🛡30 ❤70');
     });
 
     test('Hide tooltip from cell', () => {

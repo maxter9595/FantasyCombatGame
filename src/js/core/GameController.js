@@ -163,10 +163,8 @@ export default class GameController {
                         }
 
                         this.gamePlay.redrawPositions([
-                            ...this
-                                .userPositionedCharacters,
-                            ...this
-                                .enemyPositionedCharacters,
+                            ...this.userPositionedCharacters,
+                            ...this.enemyPositionedCharacters,
                         ]);
 
                         aiTurn(enemyPositionedCharacter, this);
