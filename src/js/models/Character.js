@@ -34,6 +34,9 @@ export default class Character {
             this.attack = Math.floor(
                 Math.max(this.attack, this.attack * ((80 + this.health) / 100)),
             );
+            this.defence = Math.floor(
+                Math.max(this.defence, this.defence * ((80 + this.health) / 100)),
+            );
             this.health = (this.health + 30 < 100) ? this.health + 30 : 100;
         } else {
             throw new Error(

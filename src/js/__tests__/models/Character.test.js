@@ -15,7 +15,7 @@ test('Level up the character', () => {
     expect(bowman).toEqual({
         attack: 32,
         attackDistance: 2,
-        defence: 25,
+        defence: 32,
         health: 80,
         level: 2,
         moveDistance: 2,
@@ -30,7 +30,7 @@ test('Level up with high health (should not exceed 100)', () => {
     expect(bowman).toEqual({
         attack: 45,
         attackDistance: 2,
-        defence: 25,
+        defence: 45,
         health: 100,
         level: 2,
         moveDistance: 2,
