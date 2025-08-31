@@ -76,7 +76,12 @@
   - Перемещение: 2 клетки
   - Атака: 2 клетки
 
-<img src="./src/img/characters/vampire.png" width="10%">
+<table>
+  <tr>
+    <td><img src="./src/img/characters/vampire.png" width="100%"></td>
+    <td><img src="./src/img/characters/vampire.png" width="100%"></td>
+  </tr>
+</table>
 
 - Стратегические советы:
   - Используйте дальнобойных персонажей в тылу
