@@ -302,7 +302,7 @@ ssh-ed25519 AAAA...Ed max.t95@bk.ru
 * Вход на сервер:
 
 ```bash
-ssh myclouduser@91.197.98.198
+ssh myuser@91.197.98.198
 ```
 
 * Генерация SSH-ключа на сервере:
@@ -368,14 +368,14 @@ sudo visudo
 
 ```bash
 # Добавляем в конце файла следующее:
-myclouduser ALL=(ALL) NOPASSWD: ALL
+myuser ALL=(ALL) NOPASSWD: ALL
 ```
 
 * Выход из сервера и проверка входа на сервер без пароля:
 
 ```bash
 exit
-ssh myclouduser@91.197.98.198
+ssh myuser@91.197.98.198
 # Если всё ок — войдём без пароля
 ```
 
